@@ -1,4 +1,4 @@
-class Post {
+class Post {    // model for post
   int? id;
   String title;
   String body;

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:get/get_navigation/src/root/get_material_app.dart';
 import 'package:project_test5/app_theme.dart';
 import 'package:project_test5/screens/home_screen.dart';
 
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return GetMaterialApp(   // material app for getx
       debugShowCheckedModeBanner: false,
       title: 'Flutter CRUD app',
       theme: AppTheme.lightTheme,  // the common theme

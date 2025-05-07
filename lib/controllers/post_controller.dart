@@ -25,7 +25,7 @@ class PostController extends GetxController {
     }
   }
 
-  void addPost(Post post) async {  // function for add post
+  Future<void> addPost(Post post) async {  // function for add post
     try {
       isLoading(true);
       error('');
@@ -38,7 +38,7 @@ class PostController extends GetxController {
     }
   }
 
-  void updatePost(Post post) async {   // function for update post
+  Future<void> updatePost(Post post) async {   // function for update post
     try {
       isLoading(true);
       error('');
